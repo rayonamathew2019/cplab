@@ -4,12 +4,12 @@ DATE:5/03/19*/
 #include<stdio.h>
 void main()
 {
-int num,i=1,prod;
-printf("enter the number");
-scanf("%d",&num);
+int value,i=1,prod;
+printf("enter the value");
+scanf("%d",&value);
 for(i=1;i<=10;i++)
 	{
-	prod=num*i;
-	printf("%d*%d=%d\n",num,i,prod);
+	prod=value*i;
+	printf("%d*%d=%d\n",value,i,prod);
 	}
 }
