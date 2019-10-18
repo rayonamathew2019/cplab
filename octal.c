@@ -4,14 +4,14 @@ DATE:5/03/19*/
 #include<stdio.h>
 void main()
 {
-int number,reminder,sum=0,new,last=0;
+int num,reminder,sum=0,new,last=0;
 printf("enter the number");
-scanf("%d",&number);
-while(number!=0)
+scanf("%d",&num);
+while(num!=0)
 	{
-	reminder=number%8;
+	reminder=num%8;
 	sum=(sum*10)+reminder;
-	number=number/8;
+	num=num/8;
 	}
 while(sum>0)
 	{
