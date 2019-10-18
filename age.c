@@ -6,16 +6,16 @@ void main()
 {
 int ramage,shyamage,ajayage;
 printf("enter the age of ram,shyam,ajay");
-scanf("%d%d%d",&ramage,&shyamage,&ajayage);
+scanf("%d%d%d",&ramage,&age2,&ajayage);
 if(ramage<shyamage&&ramage<ajayage)
 	{
 	printf("ram is youngest");
 	}
-if(shyamage<ramage&&shyamage<ajayage)
+if(shyamage<ramage&&age2<ajayage)
 	{
 	printf("shyam is youngest");
 	}
-if(ajayage<ramage&&ajayage<shyamage)
+if(ajayage<ramage&&ajayage<age2)
 	{
 	printf("ajay is youngest");
 	}
