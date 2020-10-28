@@ -4,15 +4,15 @@ DATE:13/02/19*/
 #include<stdio.h>
 void main()
 {
-	int number,t,reverse=0,copy,i;
+	int num,t,reverse=0,copy,i;
 	printf("enter the number to be reversed");
-	scanf("%d",&number);
-	copy=number;
-for(i=0;number>0;i++)
+	scanf("%d",&num);
+	copy=num;
+for(i=0;num>0;i++)
 	{
-	t=number%10;
+	t=num%10;
 	reverse=(reverse*10)+t;
-	number=number/10;
+	num=num/10;
 	}
 printf("the reverse of the number %d is %d",copy,reverse);
 }
