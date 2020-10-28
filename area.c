@@ -4,11 +4,11 @@ DATE:20/02/19*/
 #include<stdio.h>
 void main()
 {
-int length,breadth,area,perimeter;
+int length,br,area,perimeter;
 printf("enter the length and breadth");
-scanf("%d%d",&length,&breadth);
-area=length*breadth;
-perimeter=2*(length+breadth);
+scanf("%d%d",&length,&br);
+area=length*br;
+perimeter=2*(length+br);
 if (area>perimeter)
 	{
 	printf("area is greater than perimeter");
