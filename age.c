@@ -17,6 +17,6 @@ if(shyamage<ramage&&shyamage<ajayage)
 	}
 if(ajayage<ramage&&ajayage<shyamage)
 	{
-	printf("ajay is youngest");
+	printf("ajay is the youngest");
 	}
 }
