@@ -9,7 +9,7 @@ printf("ENTER THE TIME OF THE WORKER");
 scanf("%f",&time);
 if(time>=2 && time<3)
 {
-printf("THE WORKER IS SAID TO BE HIGHLY EFFICIENT");
+printf(" WORKER IS SAID TO BE HIGHLY EFFICIENT");
 }
 if(time>=3 && time<4)
 {
