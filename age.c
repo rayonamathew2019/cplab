@@ -5,7 +5,7 @@ DATE:20/02/19*/
 void main()
 {
 int ramage,shyamage,ajayage;
-printf("enter the age of ram,shyam,ajay");
+printf("enter the ages of ram,shyam,ajay");
 scanf("%d%d%d",&ramage,&shyamage,&ajayage);
 if(ramage<shyamage&&ramage<ajayage)
 	{
