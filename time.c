@@ -10,7 +10,7 @@ for(i=1;i<12;i++)
 	{
 	printf("%dAM\n",i);
 	}
-printf("12 Noon\n");
+printf("12 at Noon\n");
 for(i=1;i<12;i++)
 	{
 	printf("%dPM\n",i);
