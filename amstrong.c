@@ -5,7 +5,7 @@ DATE:13/02/19*/
 void main()
 {
 int amstrong=0,number,copy,i,reminder;
-printf("enter the number");
+printf("enter the num");
 scanf("%d",&number);
 copy=number;
 for(i=0;number>0;i++)
