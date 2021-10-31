@@ -5,7 +5,7 @@ DATE:13/02/19*/
 void main()
 {
 	int num,t,reverse=0,copy,i;
-	printf("enter a number to be reversed");
+	printf("enter a number to  reverse");
 	scanf("%d",&num);
 	copy=num;
 for(i=0;num>0;i++)
