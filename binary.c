@@ -7,7 +7,7 @@ void main()
 {
 int b;
 float c;
-printf("enter the decimal integer");
+printf("enter a decimal integer");
 scanf("%d",&b);
 c=binary(b);
 printf("the binary equivalent of %d is %f",b,c);
