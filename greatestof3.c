@@ -5,7 +5,7 @@ Date:06/02/19*/
 void main()
 {
 int number1,number2,number3,big;
-printf("enter the three integer numbers");
+printf("enter the three numbers");
 scanf("%d%d%d",&number1,&number2,&number3);
 big=number1;
 if(big<number2)
