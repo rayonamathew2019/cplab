@@ -5,7 +5,7 @@ DATE:5/03/19*/
 void main()
 {
 int num,i=1,prod;
-printf("enter the number");
+printf("Enter a number");
 scanf("%d",&num);
 for(i=1;i<=10;i++)
 	{
