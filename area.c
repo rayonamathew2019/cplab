@@ -5,7 +5,7 @@ DATE:20/02/19*/
 void main()
 {
 int length,br,area,perimeter;
-printf("enter the length and breadth");
+printf("enter length and breadth");
 scanf("%d%d",&length,&br);
 area=length*br;
 perimeter=2*(length+br);
